@@ -1,0 +1,92 @@
+#view-films{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2%;
+    
+    
+}
+
+#film{
+    width: 48%;
+    height: 80%;
+    margin: 1%;
+    padding: 1%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.323);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#film:hover{
+    box-shadow: 0px 0px 7px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+#film img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#film p{
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#film a{
+    display: block;
+    width: 100%;
+    padding: 1%;
+    margin-top: 4%;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(19, 62, 67);
+    color: aliceblue;
+}
+
+#title-loading{
+    font-size: 46pt;
+    text-align: center;
+    margin: 30 auto;
+    padding: 17%;
+    color: rgba(0, 0, 0, 0.179);
+}
+
+.dots {
+    width: 20%;
+    margin: 30px auto;
+    margin-top: 18%;
+    margin-bottom: 18%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dots div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(19, 62, 67);
+    animation: fade 0.8s ease-in-out alternate infinite;
+  }
+  
+  .dots div:nth-of-type(1) {
+    animation-delay: -0.4s;
+  }
+  
+  .dots div:nth-of-type(2) {
+    animation-delay: -0.2s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }

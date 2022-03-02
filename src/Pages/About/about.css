@@ -1,0 +1,24 @@
+#container-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 30px auto;
+}
+
+#container-about h1{
+    width: 50%;
+    text-align: center;
+    font-size: 30pt;
+    border-bottom: 5px solid rgb(19, 62, 67);
+    margin-bottom: 5%;
+
+}
+
+#container-about p{
+    text-indent: 40px;
+    font-size: 12pt;
+    font-weight: 500;
+    padding: 1%;
+}

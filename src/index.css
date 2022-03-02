@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, #root{
+  height: 100%;
+  min-height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font: 14px 'Roboto', sans-serif;
+  background-color: #EFEFEF;
+}
+
+footer {
+  margin-top: auto;
+  bottom: 0px;
+}
